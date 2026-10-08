@@ -68,7 +68,7 @@ def ask_gemini(parts):
 #step 1: onboarding (username and phone)
 
 if 'onboarded' not in st.session_state:
-    st.title("MacroSnap")
+    st.title("MacroSnap 🥗")
     st.caption("Snap it. Track it. Text yourself the result")
 
     with st.form("onboarding_form"):
@@ -104,7 +104,7 @@ if 'onboarded' not in st.session_state:
 header_col, button_col = st.columns([5,2], vertical_alignment="center")
 
 with header_col:
-    st.title("MacroSnap")
+    st.title("MacroSnap 🥗")
 
 with button_col:
     send_disabled = len(st.session_state.messages) <= 1
@@ -164,4 +164,4 @@ if user_input:
 
 
   
-    #photo_bytes
+    
